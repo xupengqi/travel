@@ -1,1 +1,18 @@
-/* Empty. Add your own CSS if you like */
+h1, h4 {
+  text-align: center;
+}
+
+.wx-header1 div {
+  font-size: 30px !important;
+}
+.wx-header1, .wx-header2 {
+  border: none;
+}
+.destination {
+  margin: 50px 0 0 0;
+  background: white;
+  border: none;
+}
+.content {
+  padding: 35px 0 0 0;
+}
