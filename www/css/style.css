@@ -1,18 +1,11 @@
-h1, h4 {
-  text-align: center;
+.bar-footer .wx-next {
+  float: right;
 }
-
-.wx-header1 div {
-  font-size: 30px !important;
+.bar-header .wx-menu {
+  float: left;
 }
-.wx-header1, .wx-header2 {
-  border: none;
-}
-.destination {
-  margin: 50px 0 0 0;
-  background: white;
-  border: none;
-}
-.content {
-  padding: 35px 0 0 0;
+.bar-header {
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
 }

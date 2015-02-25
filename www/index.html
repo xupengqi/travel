@@ -18,42 +18,20 @@
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
 
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
     <!-- your app's js -->
     <script src="js/airport.js"></script>
     <script src="js/app.js"></script>
   </head>
   <body ng-app="starter" ng-controller="homepage">
-    <ion-pane>
-      <ion-header-bar class="bar-header wx-header1">
-        <div class="title">Travel Genie</div>
-      </ion-header-bar>
-      <ion-header-bar class="bar-subheader item-input-inset wx-header2">
-        <div class="title">Travel planning made easy</div>
-      </ion-header-bar>
-      <ion-header-bar class="bar-subheader item-input-inset  wx-header2">
-        <label class="item item-input-wrapper destination">
-          <i class="icon ion-ios7-search placeholder-icon"></i>
-          <input type="text" placeholder="Where are you going?" ng-change="search()" ng-model="data.search">
-        </label>
-      </ion-header-bar>
-      <ion-content class="content">
-        <div class="row">
-          <div class="col col-50">
-            <div class="list">
-              <li class="item" ng-click="add()" ng-repeat="airline in data.airlines">{{airline.City}} ({{airline.Name}})</li>
-            </div>
-          </div>
-          <div class="col col-50">
-            <div class="list">
-              <li class="item" ng-click="remove()" ng-repeat="airline in data.selected">{{airline.City}} ({{airline.Name}})</li>
-            </div>
-          </div>
-        </div>
-      </ion-content>
-    </ion-pane>
-    <div class="bar bar-footer">
-      <div class="title">{{data.footer}}</div>
-      <button class="button button-clear ion-chevron-right icon-right">next</button>
-    </div>
+<div data-role="header">
+  <h1>Page Title</h1>
+</div>
+<div data-role="footer">
+  <h4>Footer content</h4>
+</div>
   </body>
 </html>
